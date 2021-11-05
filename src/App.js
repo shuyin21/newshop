@@ -6,12 +6,9 @@ import Header from './components/header/header.component';
 
 import HomePage from './pages/homepage/Homepage';
 import ShopPage from './pages/shop/shop.component';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
-const HatsPage = () => (
-  <div>
-    <h1>HATS PAGE </h1>
-  </div>
-);
+
 
 function App() {
   return (
@@ -21,6 +18,7 @@ function App() {
         <Route exact path='/' component={HomePage} />
 
         <Route path='/shop' component={ShopPage} />
+        <Route path='/signin' component={SignInAndSignUpPage} />
       </Switch>
     </div>
   );
