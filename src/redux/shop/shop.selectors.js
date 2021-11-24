@@ -28,3 +28,4 @@ export const selectIsCollectionsLoaded = createSelector(
   [selectShop],
   shop => !!shop.collections
 );
+
