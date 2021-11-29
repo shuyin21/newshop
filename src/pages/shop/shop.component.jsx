@@ -14,11 +14,6 @@ const ShopPage = ({ fetchCollectionsStart, match }) => {
   }, [fetchCollectionsStart])
 
 
-
-
-
-
-
   return (
     <div className='shop-page'>
       <Route
