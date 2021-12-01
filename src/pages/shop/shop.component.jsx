@@ -25,6 +25,9 @@ const ShopPage = ({ fetchCollectionsStart, match }) => {
         path={`${match.path}/:collectionId`}
         component={CollectionPageContainer}
       />
+
+
+
     </div>
   );
 }
