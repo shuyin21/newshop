@@ -13,6 +13,8 @@ import {
   CartItemsContainer,
 } from './cart-dropdown.styles';
 
+
+
 const CartDropdown = () => {
   const dispatch = useDispatch();
   const history = useHistory();
