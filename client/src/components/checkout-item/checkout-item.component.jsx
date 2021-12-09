@@ -7,6 +7,8 @@ import {
   removeItem,
 } from '../../redux/cart/cart.actions';
 
+
+
 import {
   CheckoutItemContainer,
   ImageContainer,
@@ -14,6 +16,8 @@ import {
   QuantityContainer,
   RemoveButtonContainer,
 } from './checkout-item.styles';
+
+
 
 const CheckoutItem = ({ cartItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
